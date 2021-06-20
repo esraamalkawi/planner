@@ -1,0 +1,17 @@
+{
+  "name": "eventplanner",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "esraamalkawi <esraamalkawi462@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
