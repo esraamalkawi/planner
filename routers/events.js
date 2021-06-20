@@ -9,12 +9,16 @@ const {
   eventDetails,
   eventSearch,
   eventFullyBooked,
+  searchEventList,
+  pagination,
 } = require("../controllers/eventControllers");
 
 const router = express.Router();
 //another way to import
 // const{eventControllers} = require("../controllers/eventControllers");
 router.get("/fullyBookedEvent/", eventFullyBooked);
+router.get("/search", searchEventList);
+router.get("/pagination", pagination);
 
 router.get("/", eventList);
 
